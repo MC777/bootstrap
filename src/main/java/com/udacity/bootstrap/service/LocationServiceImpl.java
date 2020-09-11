@@ -1,6 +1,7 @@
 package com.udacity.bootstrap.service;
 
 import com.udacity.bootstrap.entity.Location;
+import com.udacity.bootstrap.repository.LocationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
