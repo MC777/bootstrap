@@ -6,4 +6,7 @@ import java.util.List;
 
 public interface LocationService {
     List<Location> retrieveLocations();
+    List<String> retrieveLocationName();
+    String retrieveLocationById(Long id);
+    List<String> retrieveLocationAddress();
 }
